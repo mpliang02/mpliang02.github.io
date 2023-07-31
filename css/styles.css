@@ -1,0 +1,407 @@
+body {
+    cursor: url('../images/flower_cursor.png'), auto;
+}
+
+.container-fluid {
+    padding: 0;
+    background-color: #b2ab99;
+    color: black;
+}
+
+.no-overflow {
+    height: 100vh;
+    overflow: clip;
+}
+
+.name-banner {
+    text-align: center;
+    padding: 1.5em;
+    width: 100%;
+    background-color: #fde396;
+    margin: 0;
+}
+
+.name-banner > img {
+    width: 50%;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: #fdf9f0;
+    height: 4em;
+}
+
+.nav-menu {
+    display: flex;
+    flex-flow: row nowrap;
+    padding-left: 0;
+    justify-content: center;
+    border: 2px solid black;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    height: 100%;
+}
+
+.nav-tab {
+    list-style-type: none;
+    padding: 1em;
+    flex-basis: 25%;
+    text-align: center;
+    height: 100%;
+}
+
+.text-container {
+    width: 85%;
+    display: flex;
+    margin: 1em auto auto auto;
+}
+
+.text-container > p,img {
+    margin: auto;
+}
+
+.resume-container {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.bio-item {
+    width: 50%;
+    position: relative;
+}
+
+.bio-text {
+    /* margin-left: 35%; */
+    clear: left;
+}
+
+.profile-pic {
+    width: 70%;
+    float: right;
+    /* margin-right: 35%; */
+    z-index: 0;
+    position: relative;
+}
+
+.caption {
+    width: 70%;
+    clear: right;
+    float: right;
+    /* margin-right: 35%; */
+    text-align: center;
+}
+
+a:link, #linkedin, .bio-text > a {
+    color: rgb(58, 55, 45);
+}
+
+.subheader {
+    width: 40%;
+    height: auto;
+    /* margin-left: 35%; */
+}
+
+.nav-link {
+    height: 100%;
+}
+
+.socials {
+    display: flex;
+    flex-flow: row wrap;
+    /* margin-left: 35%; */
+}
+
+.icon-container {
+    width: 25%;
+    margin: 0 1em 1em 0;
+}
+
+.icon {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.project-container {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 0.5em;
+}
+
+.square {
+    width: 450px;
+    height: 400px;
+}
+
+.date {
+    margin-bottom: 0;
+}
+
+.align {
+    margin-left: 0;
+}
+
+.project-item {
+    width: 45%;
+}
+
+.project-row {
+    display: flex;
+    flex-flow: row wrap;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.container-project-page {
+    width: 100%;
+    display: flex;
+    margin-top: 2em;
+    flex-flow: row wrap;
+}
+
+.left {
+    margin-right: 10%;
+}
+
+.art-square {
+    height: 400px;
+    width: 400px;
+}
+
+.vertical-icon {
+    height: 100%;
+}
+
+#knk {
+    width: 592px;
+}
+
+#homemade {
+    width: 585px;
+}
+
+.introductory {
+    width: 85%;
+    margin: auto auto 1em auto;
+}
+
+@media screen and (max-width: 1365px) {
+    .project-container {
+        height: 300px;
+    }
+
+    #homemade {
+        width: 439px;
+        height: 300px;
+    }
+
+    .square {
+        height: 300px;
+        width: 338px;
+    }
+
+    .subheader {
+        width: 50%;
+    }
+
+    .art-square {
+        height: 300px;
+        width: 300px;
+    }
+
+    #knk {
+        width: 444px;
+        height: 300px;
+    }
+
+    .profile-pic {
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .project-container {
+        height: 250px;
+    }
+
+    #homemade {
+        width: 366px;
+        height: 250px;
+    }
+
+    .square {
+        height: 250px;
+        width: 281.25px;
+    }
+
+    .profile-pic {
+        width: 90%;
+    }
+
+    .caption {
+        width: 90%;
+    }
+
+    .subheader {
+        width: 50%;
+    }
+
+    .art-square {
+        height: 250px;
+        width: 250px;
+    }
+
+    #knk {
+        height: 250px;
+        width: 371px;
+    }
+
+}
+
+@media screen and (max-width: 877px) {
+    .project-container {
+        height: 200px;
+    }
+
+    #homemade {
+        width: 293px;
+        height: 200px;
+    }
+
+    .square {
+        height: 200px;
+        width: 225px;
+    }
+
+    .subheader {
+        width: 50%;
+    }
+
+    #contact-page {
+        width: 100%;
+    }
+
+    #contact-me {
+        width: 45%;
+        display: block;
+        margin: auto;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .art-square {
+        height: 200px;
+        width: 200px;
+    }
+
+    #knk {
+        height: 200px;
+        width: 296.5px;
+    }
+
+    .profile-pic {
+        width: 90%;
+    }
+
+}
+
+@media screen and (max-width: 690px) {
+    #insertName {
+        width: 100%;
+    }
+
+    .nav-container {
+        height: 3.5em;
+    }
+
+    .text-container {
+        flex-flow: column wrap;
+    }
+
+    .bio-item {
+        width: 100%;
+    }
+
+    .subheader {
+        width: 55%;
+        display: block;
+        margin: auto;
+    }
+
+    .profile-pic, .caption {
+        width: 75%;
+        display: block;
+        margin: auto;
+        float: none;
+    }
+
+    .caption {
+        padding-bottom: 1em;
+    }
+
+    .subheader {
+        order: -1;
+    }
+
+    .mobile-profile {
+        order: 0;
+    }
+
+    .about-me-text {
+        order: 1;
+    }
+
+    .socials {
+        justify-content: center;
+    }
+
+    .icon-container {
+        width: 22.5%;
+    }
+
+    .project-row {
+        flex-flow: column nowrap;
+    }
+
+    .project-item {
+        margin: auto auto 2em auto;
+        width: 85%;
+    }
+
+    #homemade {
+        width: 100%;
+        margin: auto auto 1em auto;
+        height: 100%;
+    }
+
+    .bio-text {
+        margin: auto;
+    }
+
+    .square, .art-square, #knk {
+        margin: auto auto 1em auto;
+        width: 100%;
+        height: 100%;
+    }
+    
+    #snake {
+        margin: auto auto auto 35%;
+    }
+
+    #ily {
+        height: 600px;
+        margin-bottom: 1em;
+    }
+
+    #email {
+        margin-bottom: 1em;
+    }
+
+}
