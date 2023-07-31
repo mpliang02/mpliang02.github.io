@@ -406,4 +406,8 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
         margin-bottom: 1em;
     }
 
+    .second-p {
+        margin-top: 1em;
+    }
+
 }
