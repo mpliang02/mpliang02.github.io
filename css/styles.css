@@ -397,8 +397,9 @@ a:link, #linkedin, .bio-text > a {
     }
 
     #ily {
-        height: 415px;
+        height: 85vw;
         margin-bottom: 1em;
+        text-align: center;
     }
 
     #email {
