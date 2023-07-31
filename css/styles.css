@@ -95,7 +95,7 @@ body {
     text-align: center;
 }
 
-a:link, #linkedin, .bio-text > a {
+a:link, #linkedin, .bio-text > a, .introductory > a {
     color: rgb(58, 55, 45);
 }
 
