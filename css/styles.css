@@ -154,7 +154,7 @@ a:link, #linkedin, .bio-text > a {
     flex-flow: row wrap;
     width: 85%;
     margin: auto;
-    margin-bottom: 2em;
+    /* margin-bottom: 2em; */
 }
 
 .container-project-page {
@@ -175,6 +175,7 @@ a:link, #linkedin, .bio-text > a {
 
 .vertical-icon {
     height: 100%;
+    border-radius: 5px;
 }
 
 #knk {
@@ -336,7 +337,7 @@ a:link, #linkedin, .bio-text > a {
     }
 
     .profile-pic, .caption {
-        width: 75%;
+        width: 90%;
         display: block;
         margin: auto;
         float: none;
@@ -396,7 +397,7 @@ a:link, #linkedin, .bio-text > a {
     }
 
     #ily {
-        height: 600px;
+        height: 415px;
         margin-bottom: 1em;
     }
 
