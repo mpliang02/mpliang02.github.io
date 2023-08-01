@@ -220,7 +220,7 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
         height: 300px;
     }
 
-    .profile-pic {
+    .profile-pic, .caption {
         width: 90%; 
     }
 }
