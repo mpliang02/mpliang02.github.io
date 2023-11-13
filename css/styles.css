@@ -186,6 +186,10 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
     width: 585px;
 }
 
+#dischord {
+    width: 600px;
+}
+
 .introductory {
     width: 85%;
     margin: auto auto 1em auto;
