@@ -121,14 +121,14 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
 }
 
 .icon {
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
     border-radius: 5px;
 }
 
 .project-container {
-    width: 100%;
-    height: 400px;
+    width: 90%;
+    height: 325px;
     margin-bottom: 0.5em;
 }
 
