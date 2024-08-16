@@ -126,6 +126,10 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
     border-radius: 5px;
 }
 
+.icon-social {
+    width: 100%;
+}
+
 .project-container {
     width: 90%;
     height: 325px;
