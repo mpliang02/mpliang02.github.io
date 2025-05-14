@@ -126,6 +126,12 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
     border-radius: 5px;
 }
 
+.icon-not-standard {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
 .icon-social {
     width: 100%;
 }
@@ -231,6 +237,12 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
     .profile-pic, .caption {
         width: 90%; 
     }
+
+    .icon-not-standard {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
 }
 
 @media screen and (max-width: 1050px) {
@@ -269,6 +281,12 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
         height: 250px;
         width: 371px;
     }
+
+    .icon-not-standard {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
 
 }
 
@@ -318,6 +336,12 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
     .profile-pic {
         width: 90%;
     }
+
+    .icon-not-standard {
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 5px;
+}
 
 }
 
@@ -374,6 +398,12 @@ a:link, #linkedin, .bio-text > a, .introductory > a {
     .icon-container {
         width: 22.5%;
     }
+
+    .icon-not-standard {
+    /* width: 100%; */
+    height: 100%;
+    border-radius: 5px;
+}
 
     .project-row {
         flex-flow: column nowrap;
